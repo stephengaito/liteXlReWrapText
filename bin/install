@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# This bash script installs the lite-xl editor reWrapText plugin.
+
+pluginsDir=$HOME/.config/lite-xl/plugins
+
+mkdir -p $pluginsDir
+
+cp reWrapText.lua $pluginsDir
+
